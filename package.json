@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "as-bind": "^0.8.2",
+    "assemblyscript": "^0.19.22",
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security"
+  },
+  "name": "test",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
