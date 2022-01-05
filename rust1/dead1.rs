@@ -1,7 +1,7 @@
 #![allow(dead_code)]
-
+#![allow(unused_variables)]
 
 fn main() {
-
-    println!("hello");
+    let a: u8 = 123;
+    println!("{:?}", a);
 }
