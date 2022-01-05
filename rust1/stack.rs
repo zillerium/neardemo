@@ -30,6 +30,27 @@ if x == 64 { continue;};
 
 }
 
+// continue and break are possible
+//
+let mut y = 1;
+loop {
+y*=2;
+if y == 1<<10 {break;}
+
+println!("{}", y);
+
+}
+
+for i in 1..11
+{
+
+println!("{}", i);
+}
+
+for (pos, y) in (30 .. 41).enumerate() {
+
+println!("{} {}", pos, y);
+}
 
 }
 
