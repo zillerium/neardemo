@@ -1,20 +1,15 @@
-
-
 fn main() {
+    let x = 3.0;
+    let y = 20.0;
 
-let x = 3.0;
-let y = 20.0;
+    let res = if y != 0.0 { Some(x / y) } else { None };
 
-let res = if y!=0.0 {Some(x/y) } else {None};
+    match res {
+        Some(z) => println! {"yes"},
+        None => println! {"no"},
+    }
 
-match res {
-Some(z) =>println!{"yes"},
-None => println!{"no"}
-
-}
-
-if let Some(z) = res {
-    println!("result {}", z)
-}
-
+    if let Some(z) = res {
+        println!("result {}", z)
+    }
 }
