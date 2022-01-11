@@ -12,5 +12,16 @@ let null_ptr = ptr::null() as *const u32;
 println!("Data address: {:p}", &data);
 println!("Raw pointer address: {:p}", raw_ptr); 
 println!("Null pointer address: {:p}", null_ptr);
+printstr(x);
+}
+
+
+fn printstr(s: String) {
+println!("{}", s);
+
+let raw_ptr = s.as_ptr() as *const u32;
+println!("string address: {:p}",&s);
+println!("Raw pointer address: {:p}", raw_ptr);
+
 
 }
