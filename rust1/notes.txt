@@ -1,0 +1,3 @@
+xxd --g1 sumtest
+
+- shows binary of compiled file
